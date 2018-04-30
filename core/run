@@ -37,19 +37,19 @@ echo
          echo "$green[✔]:[ Metasploit ]: $cyan installed !"
    else
          echo "$green[x]:[ Metasploit ]: $red Not installed ! "
-        echo "[ $red For using this tool you must install metasploit ] "
+         echo "[ $red For using this tool you must install metasploit ] "
    fi
 echo
 sleep 0.5
-   if [ -f /data/data/com.termux/files/home/metasploit-framework/msfvenom ]
+   if [ -f /data/data/com.termux/files/home/metasploit-framework/msfvenom ];
    then
         echo "$green[✔]:[ Msfvenom ]: $cyan Found !"
    else
-       echo "$green[x]:[ Metasploit ]: $red Not Found ! "
+        echo "$green[x]:[ Msfvenom ]: $red Not Found ! "
   fi
 echo
 sleep 0.3
-   if [ -f /data/data/com.termux/files/home/metasploit-framework/msfconsole ]
+   if [ -f /data/data/com.termux/files/home/metasploit-framework/msfconsole ];
    then 
         echo "$green[✔]:[ Msfconsole ]: $cyan Found !"
    else
